@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JS exam</audio>
+    </title>
+  </head>
+  <body>
+  <h1>JS exam</h1>
+  <script>
+      var user={
+};
+user.name="John";
+console.log(user.name);
+user.surname="Mike";
+user.name="Peter";
+console.log(user.name);
+delete user.name;
+console.log(user.name);
+var fruit = {
+apple: 20,
+pear: 20,
+peach: 10,
+get_sum : function(){
+                    var apple = this.apple;
+                    var pear = this.pear;
+                    var peach = this.peach;
+                    var totle = apple+pear+peach;
+                    return totle;
+                  }
+}
+console.log( fruit.get_sum() );
+  </script>
+  </body>
+</html>

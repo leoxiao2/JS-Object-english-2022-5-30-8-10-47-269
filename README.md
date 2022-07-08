@@ -13,9 +13,21 @@
 var fruit = {
 apple: 20,
 pear: 20,
-peach: 10
-};
+peach: 10,
+}
 // write your code here...
-```
+var fruit = {
+apple: 20,
+pear: 20,
+peach: 10,
+get_sum : function(){
+                    var apple = this.apple;
+                    var pear = this.pear;
+                    var peach = this.peach;
+                    var totle = apple+pear+peach;
+                    return totle;
+                  }
+}
+console.log( fruit.get_sum() );
 ## Requirements
 Create a js document and complete the above requirements.
